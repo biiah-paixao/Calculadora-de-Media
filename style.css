@@ -1,0 +1,153 @@
+body {
+  font-family: sans-serif;
+  min-height: 400px;
+  /* background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+  background-color: #f38383;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat; */
+
+  background-image: url('fundo.jpg')
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  background: rgba(0, 0, 0, 0.705);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  padding: 15px 35px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+/*-- inputs --*/
+.page-content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.page-inputs{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 600px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.page-inputs input{
+  padding: 10px 5px;
+
+}
+
+.page-inputs label{
+  padding: 10px 5px;
+}
+
+.page-inputs label input{
+  width: 200px;
+
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px;
+
+  
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #a9b7c3,
+              inset -8px -8px 8px #e0e6ee;
+
+
+  background-color: #e0e6ee;
+}
+
+.page-input-nome{
+  width: 90%;
+  margin-bottom: 20px;
+  text-align: center;
+
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 24px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+
+
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #a9b7c3,
+              inset -8px -8px 8px #e0e6ee;
+
+
+  background-color: #e0e6ee;
+}
+
+.efeito-vidro {
+  background: rgba(187, 187, 187, 0.226);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.page-result{ 
+  display: none;
+
+  width: 300px;
+  margin: 20px;
+}
+
+.btn{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  padding: 15px 20px;
+  margin-top: 10px;
+
+  border-radius: 25px;
+  box-shadow: inset -8px -8px 8px #f5dd31;
+
+
+  background-color: #f5dd31;
+}
+
+.result{
+  font-size: 36px;
+}
+
+.info{
+  font-size: 20px;
+}
+.img{
+  padding: 20px;
+}
