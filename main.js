@@ -41,15 +41,15 @@
 
         if(notaFinal <= 10 && notaFinal >= 7){
             document.querySelector('.info').innerHTML = `<strong>${nome}</strong> <br> Você Passou!!`
-            img.setAttribute('src', 'parabens.png');
+            img.setAttribute('src', './img/parabens.png');
         }
         else if(notaFinal <= 7  && notaFinal >= 5){
             document.querySelector('.info').innerHTML = `<strong>${nome}</strong> <br> Você está de exame!!`
-            img.setAttribute('src', 'quase.png');
+            img.setAttribute('src', './img/quase.png');
 
         }else if(notaFinal <= 5 && notaFinal >= 0){
             document.querySelector('.info').innerHTML = `<strong>${nome}</strong> <br> Você Reprovou!!`
-            img.setAttribute('src', 'triste.png');
+            img.setAttribute('src', './img/triste.png');
         }
     }
 
